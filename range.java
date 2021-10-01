@@ -12,7 +12,7 @@ class prime_range_recursion
             j++;
             return is_prime(n);
         }
-        else if(n>2){
+        else if(n<2){
             return 0;
         }
         else {
